@@ -7,6 +7,7 @@
     --hover-button:#188CE8;
     --secondaryText-color: #757575;
     --footer-text-color: rgba(255,255,255,0.6);
+    --footer-icon-elipse: rgba(255,255,255,0.1);
     --font-family-ral:'Raleway', sans-serif; 
     --font-family-rob:'Roboto', sans-serif;
     --basic-border-color: #ECECEC;
@@ -309,6 +310,13 @@ span{
     fill: var(--basic-color);
 }
 /* FIVETH SECTION */
+.clients-section-title{
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 .clients-list{
     list-style: none;
     display: flex;
@@ -375,6 +383,45 @@ span{
 .inner:hover,
 .inner:focus{
     color: var(--effect-text-color);
+}
+.network-container{
+    margin-top: 12px;
+}
+.footer-network-list{
+    display: flex;
+    list-style: none;
+}
+.footer-network-link-item{
+    width: 44px;
+    height: 44px;
+    background-color: var(--footer-icon-elipse);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.footer-network-link-item:nth-child(2){
+    background-color: var(--effect-text-color);
+}
+.footer-network-link-item:not(:last-child){
+    margin-right: 10px;
+}
+.footer-network{
+    fill: var(--basic-color);
+}
+.footer-network-title{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--basic-color);
+}
+.address-container{
+    margin-right: 70px;
+}
+.footer-container{
+    display: flex;
 }
 /* PORTFOLIO FIRST SECTION */
 .headline{
