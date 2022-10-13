@@ -308,6 +308,32 @@ span{
 .network-link:focus .network{
     fill: var(--basic-color);
 }
+/* FIVETH SECTION */
+.clients-list{
+    list-style: none;
+    display: flex;
+}
+.clients-item{
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icons-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-item:not(:last-child){
+    margin-right: 30px;
+}
+.clients-item:hover{
+    border: 1px solid var(--effect-text-color);
+}
+.clients-item:hover .clients-icon{
+    fill: var(--effect-text-color);
+}
+.clients-icon{
+    fill: var(--icons-color);
+}
 /* FOOTER */
 .footer{
     width: 100%;
