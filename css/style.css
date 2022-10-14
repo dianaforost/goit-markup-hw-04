@@ -102,6 +102,8 @@ span{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+    display: flex;
+    align-items: center;
 }
 .header-link:hover,
 .header-link:focus,
@@ -391,7 +393,7 @@ span{
     display: flex;
     list-style: none;
 }
-.footer-network-link-item{
+.footer-network-link{
     width: 44px;
     height: 44px;
     background-color: var(--footer-icon-elipse);
@@ -400,7 +402,8 @@ span{
     align-items: center;
     border-radius: 50%;
 }
-.footer-network-link-item:nth-child(2){
+.footer-network-link:hover,
+.footer-network-link:focus{
     background-color: var(--effect-text-color);
 }
 .footer-network-link-item:not(:last-child){
